@@ -1,30 +1,30 @@
 class Kr < Formula
   desc "Fast, syntax-aware rename and analysis CLI for Kotlin projects"
   homepage "https://github.com/umuterturk/kotlin-renamer"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.0/kr_darwin_arm64.tar.gz"
-      sha256 "88bda2620379d1d9cd0c08f3be572dd3b21abdf8b48fdc5035ee122809860696"
+      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.1/kr_darwin_arm64.tar.gz"
+      sha256 "ff2b3d04b9f2af0aa1271b5802089391c5c92c91cdd990fc47aa3dfe30e1a54e"
     end
 
     on_intel do
-      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.0/kr_darwin_amd64.tar.gz"
-      sha256 "32ca43c1c5488df1a990cb2721de29340934f9ed7102630e896fdb80307b883d"
+      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.1/kr_darwin_amd64.tar.gz"
+      sha256 "60796348e29d0bcf554a3ee7dc092856bc0d551e22482bdda6a8e168c388562c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.0/kr_linux_arm64.tar.gz"
-      sha256 "574253dab739fbdbeed283ec6c99a526bb0474636a0cf7f4abdc2fc1f6ee92ef"
+      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.1/kr_linux_arm64.tar.gz"
+      sha256 "fb00ebed85dcabc287bbdc967d08f54bfc5ca655895c946a8b675895741612eb"
     end
 
     on_intel do
-      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.0/kr_linux_amd64.tar.gz"
-      sha256 "78f671dbd8497d8be31224bc86cb392462eb2b562a1327923ab82ef8adb5b161"
+      url "https://github.com/umuterturk/kotlin-renamer/releases/download/v0.3.1/kr_linux_amd64.tar.gz"
+      sha256 "fa75912ca074755b25e1ef53f0e94eb95c42eb2a91494a826e08fc009fcb29a1"
     end
   end
 
