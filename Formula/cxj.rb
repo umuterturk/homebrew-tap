@@ -5,23 +5,23 @@ class Cxj < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/umuterturk/cxj/releases/download/v0.3.2/cxj-macos-arm64.zip"
-      sha256 "422c9b76d869368d7556894f9d4ec9a1c1a50e1e3b81e2523f85644d62d0dd11"
+      url "https://github.com/umuterturk/cxj/releases/download/v0.4.0/cxj-macos-arm64.zip"
+      sha256 "f557ad67610d6b08fb35002c332efa6605f1cd61a3c02f72885a8f4e9c2cd0ee"
     end
     on_intel do
-      url "https://github.com/umuterturk/cxj/releases/download/v0.3.2/cxj-macos-x86_64.zip"
-      sha256 "4ef7e4ccd8efd0ee39865c2330070183ff8a3e0bf0dca29b6769e98a3098577b"
+      url "https://github.com/umuterturk/cxj/releases/download/v0.4.0/cxj-macos-x86_64.zip"
+      sha256 "3c7a66fb5121611276c31543644c17dada60fd8ea3d44cadd8131dcf6dfe3a8e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/umuterturk/cxj/releases/download/v0.3.2/cxj-linux-arm64.zip"
-      sha256 "52e4934f24a52b0a9109bebe54b6f25b75af70bf12f172966a704a49a3c78909"
+      url "https://github.com/umuterturk/cxj/releases/download/v0.4.0/cxj-linux-arm64.zip"
+      sha256 "986cd706aaa885def59703894cb85a928641b141c90d94fac343a8a02fa0a91e"
     end
     on_intel do
-      url "https://github.com/umuterturk/cxj/releases/download/v0.3.2/cxj-linux-x86_64.zip"
-      sha256 "e118bdd790e3acecd8b33da4211ee004a429742bab0011b2e70a2975eedbfe24"
+      url "https://github.com/umuterturk/cxj/releases/download/v0.4.0/cxj-linux-x86_64.zip"
+      sha256 "aebce3c75b6a2b395c93a42c6d9a894a98be96bd611627a0f6db444df267f75b"
     end
   end
 
